@@ -9,5 +9,3 @@ public class NoIdFoundException extends Exception {
 		System.out.println("Id doesn't exist. Please enter a valid one.");
 	}
 }
-
-
