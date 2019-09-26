@@ -23,6 +23,8 @@ public class EmpMain {
 		System.out.println("Enter designation: ");
 		String des = scan.next();
 		System.out.println("Enter salary: ");
+		
+		
 		String sal = scan.next();
 		Employee employee = new Employee(id,name,des,sal);
 		return employee;
